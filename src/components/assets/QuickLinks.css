@@ -1,0 +1,36 @@
+/* src/components/QuickLinks.css */
+
+.quick-links {
+    padding: 20px;
+    background-color: #e9ecef;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quick-links h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links ul li {
+    margin: 10px 0;
+  }
+  
+  .quick-links ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .quick-links ul li a:hover {
+    text-decoration: underline;
+  }
+  

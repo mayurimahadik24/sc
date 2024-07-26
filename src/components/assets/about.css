@@ -1,0 +1,79 @@
+/* Aboutus.css */
+.school-details {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .section h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .section p, .section blockquote, .section ul {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .section blockquote {
+    font-style: italic;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-left: 5px solid #2c3e50;
+  }
+  
+  .section.history {
+    background-color: #eaf2f8;
+  }
+  
+  .section.vision {
+    background-color: #e8f8f5;
+  }
+  
+  .section.mission {
+    background-color: #e9ecef;
+  }
+  
+  .section.principal-message {
+    background-color: #fdf2e9;
+  }
+  
+  .section.facilities {
+    background-color: #f7f9f9;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .school-details {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .section {
+      padding: 15px;
+    }
+  
+    .section h2 {
+      font-size: 20px;
+    }
+  
+    .section p, .section blockquote, .section ul {
+      font-size: 14px;
+    }
+  }
+  

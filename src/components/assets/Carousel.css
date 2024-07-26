@@ -1,0 +1,19 @@
+/* Optional Custom CSS Overrides */
+/* src/components/Carousel.css */
+
+.carousel .slide {
+    background: #aac8d7;
+    max-width: 800px;
+    padding: 200px;
+  }
+  
+  .carousel .legend {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    bottom: 20px;
+    padding: 20px;
+  }
+
+  

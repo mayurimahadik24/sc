@@ -1,0 +1,102 @@
+/* academics.css */
+
+.academics {
+    padding: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .academics h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+    animation: slideInDown 1s ease-out;
+  }
+  
+  .curriculum-section, .teaching-methodologies, .educational-resources {
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+    transform: translateY(20px);
+  }
+  
+  .curriculum-section h2,
+  .teaching-methodologies h2,
+  .educational-resources h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .curriculum-level {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1.2s ease-out forwards;
+    animation-delay: 0.5s;
+    transform: translateY(20px);
+  }
+  
+  .curriculum-level h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2980b9;
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .curriculum-level p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  h4 {
+    font-size: 1.3em;
+    margin: 10px 0;
+    color: #16a085;
+    font-style: italic;
+  }
+  
+  .teaching-methodologies p, .educational-resources p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+    margin: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+  }
+  
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInDown {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
